@@ -6,11 +6,12 @@ __pycache__/
 *.log
 *.csv
 *.json
-*.html
+# *.html
 *.log
+*credentials*
 
 # Ignore sensitive information (like credentials or tokens)
-*.json
+# *.json
 
 # Ignore the chromedriver (for Selenium)
 chromedriver.exe
