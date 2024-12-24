@@ -1,0 +1,33 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore logs and test-related files
+*.log
+*.csv
+*.json
+*.html
+*.log
+
+# Ignore sensitive information (like credentials or tokens)
+*.json
+
+# Ignore the chromedriver (for Selenium)
+chromedriver.exe
+
+# Ignore any virtual environment (if you use one)
+venv/
+env/
+
+# Ignore IDE-specific files (e.g., VS Code)
+.vscode/
+.idea/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore other common unnecessary files
+*.bak
+*.swp
+*.swo
